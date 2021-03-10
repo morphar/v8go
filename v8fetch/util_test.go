@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/morphar/v8go"
+	v8 "github.com/morphar/v8go"
 	"github.com/morphar/v8go/v8console"
 	"github.com/morphar/v8go/v8fetch"
 )
@@ -37,6 +37,6 @@ func TestAddHeader(t *testing.T) {
 	}
 
 	if logs.String() != "200\n" {
-		t.Errorf("Didn't get the expected response code: %s", logs.String)
+		t.Errorf("Didn't get the expected response code: %s", logs.String())
 	}
 }
