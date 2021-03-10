@@ -3,7 +3,7 @@ package v8_test
 import (
 	"fmt"
 
-	"github.com/augustoroman/v8"
+	"github.com/morphar/v8go"
 )
 
 func Example() {
